@@ -1,12 +1,29 @@
-<div class="content-box">
-    <h2>🔬 Mini-Quiz Científico </h2>
-    <p>¿Cuál es la fuente de energía principal de la Tierra?</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciencia | Explora y Aprende</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <h1>🧪 Clase de Ciencia 🧪</h1>
+    <p>¡Explora el mundo y sus misterios!</p>
 
-    <div id="quiz-options">
-        <button onclick="checkAnswer('luna')">La Luna</button>
-        <button onclick="checkAnswer('sol')">El Sol</button>
-        <button onclick="checkAnswer('tierra')">La Tierra</button>
+    <div class="content-box">
+        <h2>🔬 Mini-Quiz Científico </h2>
+        <p>¿Cuál es la fuente de energía principal de la Tierra?</p>
+        
+        <div id="quiz-options">
+            <button onclick="checkAnswer('luna')">La Luna</button>
+            <button onclick="checkAnswer('sol')">El Sol</button>
+            <button onclick="checkAnswer('tierra')">La Tierra</button>
+        </div>
+
+        <p id="feedback" style="font-weight: bold; margin-top: 20px;"></p>
     </div>
+    <a href="index.html" class="back-button">⬅️ Volver al Inicio</a>
 
-    <p id="feedback" style="font-weight: bold; margin-top: 20px;"></p>
-</div>
+    <script src="script.js"></script> 
+</body>
+</html>
