@@ -113,3 +113,32 @@ li a {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+/* Estilos para la galería de Arte */
+.art-gallery {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente línea en pantallas pequeñas */
+    gap: 20px;
+    justify-content: center; /* Centra los elementos */
+    margin-top: 20px;
+    text-align: center;
+}
+
+.art-item {
+    flex: 1 1 300px; /* Define el tamaño base de cada imagen */
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.art-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.art-item h3 {
+    color: #4CAF50; /* Un color verde que contraste con el rojo/coral del H1 */
+    margin-top: 0;
+}
