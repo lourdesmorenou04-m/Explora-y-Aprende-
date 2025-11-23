@@ -52,3 +52,34 @@ li {
 #quiz-options button:hover {
     background-color: #254bd6; /* Azul más oscuro al pasar el mouse */
 }
+/* 1. Estilos para que el contenido del quiz se vea bien */
+.content-box {
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 700px; /* Un poco más ancho */
+    background-color: #f7f7f7; /* Fondo gris claro suave para el área del quiz */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+    text-align: left; /* Alineamos el texto a la izquierda dentro de la caja */
+}
+
+/* 2. Estilos para los botones del quiz */
+/* Aseguramos que los botones dentro de quiz-options se vean bien */
+#quiz-options button {
+    display: block; /* Hace que cada botón ocupe una línea completa */
+    width: 100%;
+    background-color: #3366ff; /* Azul vibrante */
+    color: white;
+    border: 2px solid #254bd6; /* Borde más oscuro */
+    padding: 12px 15px;
+    margin: 10px 0; /* Espacio vertical */
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+#quiz-options button:hover {
+    background-color: #254bd6; 
+    transform: translateY(-2px); /* Pequeño efecto de elevación */
+}
